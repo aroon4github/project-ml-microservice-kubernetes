@@ -1,0 +1,9 @@
+<paste log output from Kubernetes-mediated prediction, here>
+./run_kubernetes.sh
+Error from server (AlreadyExists): deployments.apps "udacity2" already exists
+Error from server (AlreadyExists): services "udacity2" already exists
+NAME                        READY   STATUS    RESTARTS   AGE
+udacity2-86854dd8d7-9cmpl   1/1     Running   0          66s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
